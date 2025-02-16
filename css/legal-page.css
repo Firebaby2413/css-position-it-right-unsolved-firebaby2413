@@ -15,8 +15,7 @@
 }
 
 main {
-  position: absolute;
-  top: 156px;
+  margin-top: 156px;;
 }
 
 section {
@@ -44,9 +43,8 @@ section {
   flex-direction: column;
   gap: 30px;
   max-width: 600px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  padding-bottom: 25px;
+  margin: auto;
+  padding-top: 25px;
 }
 
 .document-content p {
@@ -75,7 +73,7 @@ footer {
 
 .footer-content {
   width: 100%;
-  max-width: 900px;
+  max-width: 56.25rem;
   display: flex;
   gap: 50px;
   justify-content: space-between;
