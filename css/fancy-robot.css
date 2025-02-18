@@ -27,7 +27,7 @@
     background: 
     radial-gradient(circle at 40% 30%,#0000 4%,57%,#000 90%) 
     #0740b9;
-    
+    opacity: 0.22;
 }
 
 .robot-eye-right {
@@ -122,10 +122,10 @@
     top: 350px;
     left: 140px;
     --c: 85; /* control the curvature (a percentage value without unit bigger than 50%)*/
-  width: 250px;
-  height: 90px;
+  width: 15.625rem;
+  height: 5.625rem;
   aspect-ratio: 3/2;
-  background: #a7237b url('https://fastly.picsum.photos/id/721/2000/1333.jpg?hmac=5eQ3z71rOUtzl06Kp6IR8-ay65mIztUpp4X6_6WGdTc');
+  background-image:  url('https://fastly.picsum.photos/id/721/2000/1333.jpg?hmac=5eQ3z71rOUtzl06Kp6IR8-ay65mIztUpp4X6_6WGdTc');
   border: 3px solid red;
   mask: radial-gradient(calc(var(--c)*1%) 100% at 50% calc(-100%*cos(asin(50/var(--c)))),#0000 calc(100% - 1px),#000);
   clip-path: ellipse(calc(var(--c)*1%) 100% at top);
@@ -134,8 +134,8 @@
 .robot-tooth {
     position: absolute;
     background-color: rgb(98, 255, 0);
-    width: 40px;
-    height: 30px;
+    width: 25%;
+    height: 35%;
     left: 29%;
     border: 2px solid rgb(98, 255, 0);
     border-radius: 9px 7px 8px 11px;
